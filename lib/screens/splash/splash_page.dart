@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 
 import '../../providers/location_provider.dart';
 import '../../providers/weather_provider.dart';
-import '../../core/routes/app_routes.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
