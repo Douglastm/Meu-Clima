@@ -4,7 +4,6 @@ import '../../screens/home/home_page.dart';
 import '../../screens/search/search_page.dart';
 import '../../screens/splash/splash_page.dart';
 import '../../screens/details/weather_details_page.dart';
-import '../../screens/favorites/favorites_page.dart';
 
 class AppRoutes {
   static const splash = "/";
@@ -17,15 +16,5 @@ class AppRoutes {
 
   static const details = "/details";
 
-  static Map<String, WidgetBuilder> routes = {
-    splash: (_) => const SplashPage(),
-
-    home: (_) => const HomePage(),
-
-    search: (_) => const SearchPage(),
-
-    favorites: (_) => const FavoritesPage(),
-
-    details: (_) => const WeatherDetailsPage(),
-  };
+  static Map<String, WidgetBuilder> routes = {splash: (_) => const SplashPage(), home: (_) => const HomePage(), search: (_) => const SearchPage(), details: (_) => const WeatherDetailsPage()};
 }
